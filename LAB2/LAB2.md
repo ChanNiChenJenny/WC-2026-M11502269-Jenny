@@ -36,6 +36,7 @@
 
 **Question:** Does the traffic direction shown in the JSON match the scenario description? Show the proof.
 > **Ans**: Yes. The field `start → test_start → reverse` is `1` in `scenario-a-downlink.json` and `0` in `scenario-b-uplink.json` and `scenario-c-uplink.json`.
+
 > scenario A:
 > ![image](Image/1.png)
 > scenario B:
