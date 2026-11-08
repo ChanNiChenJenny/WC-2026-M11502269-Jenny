@@ -37,8 +37,8 @@
 **Question:** Does the traffic direction shown in the JSON match the scenario description? Show the proof.
 > **Ans**: Yes. The field `start → test_start → reverse` is `1` in `scenario-a-downlink.json` and `0` in `scenario-b-uplink.json` and `scenario-c-uplink.json`. 
 > scenario A:![image](Image/1.png)
-> scenario B:![image](https://hackmd.io/_uploads/S1XU-bdpfg.png)
-> scenario C:![image](https://hackmd.io/_uploads/SyJ9-Z_aMl.png)
+> scenario B:![image](Image/2.png)
+> scenario C:![image](Image/3.png)
 
 
 
@@ -103,9 +103,9 @@ Answer:
 | Is `pattern2` present? |No |No |
 
 `tdd-dl-heavy-sib1.pcapng`:
-![image](https://hackmd.io/_uploads/BkveIMdaMx.png)
+![image](Image/4.png)
 `tdd-balanced-sib1.pcapng`
-![image](https://hackmd.io/_uploads/S1O5Ufupfl.png)
+![image](Image/5.png)
 
 
 
@@ -113,9 +113,9 @@ Answer:
 ### Draw the TDD Time Allocation
 For the normal cyclic prefix used in this exercise, each reference slot contains 14 OFDM symbols, numbered 0–13.
 DL-heavy:
-![DL](https://hackmd.io/_uploads/SJoTSCcpfl.png)
+![image](Image/6.png)
 Balanced:
-![Balanced](https://hackmd.io/_uploads/rkrXvaqaMx.png)
+![image](Image/7.png)
 
 
 | TDD setting | Repeating duration (ms) | Total reference slots | DL symbols | UL symbols | Flexible symbols | Configured UL symbol share (%) |
@@ -184,7 +184,7 @@ Answer:
 | Inner destination IP |10.0.0.6 |
 | TEID |0xcddc4529 |
 
-![image](https://hackmd.io/_uploads/SyLDOj9afe.png)
+![image](Image/8.png)
 
 
 ## Task 7 — TCP Retransmissions
@@ -196,11 +196,11 @@ Answer:
 | C | 12|
 
 Scenario A:
-![image](https://hackmd.io/_uploads/BkjPQ_OTGe.png)
+![image](Image/9.png)
 Scenario B:
-![image](https://hackmd.io/_uploads/rJ6OQuuaGl.png)
+![image](Image/10.png)
 Scenario C:
-![image](https://hackmd.io/_uploads/Hkci7OuTfe.png)
+![image](Image/11.png)
 
 
 
@@ -213,7 +213,7 @@ Scenario C:
 | --- | ---: | --- |
 | A |1842 |0.018162 s |
 
-![image](https://hackmd.io/_uploads/HyGxyKOaGe.png)
+![image](Image/12.png)
 
 ### Packet Interval
 
@@ -221,7 +221,7 @@ Scenario C:
 | --- | --- | --- | --- |
 | A| `udp.dstport == 51624 && sll.ifindex == 41` |1898 → 1900 | 0.000081 s |
 
-![image](https://hackmd.io/_uploads/rkPn43c6Ge.png)
+![image](Image/13.png)
 
 
 ## Final Questions
