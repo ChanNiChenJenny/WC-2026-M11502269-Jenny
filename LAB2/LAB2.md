@@ -36,7 +36,7 @@
 
 **Question:** Does the traffic direction shown in the JSON match the scenario description? Show the proof.
 > **Ans**: Yes. The field `start → test_start → reverse` is `1` in `scenario-a-downlink.json` and `0` in `scenario-b-uplink.json` and `scenario-c-uplink.json`. 
-> scenario A:LAB2/Image/1.png
+> scenario A:![image](LAB2/Image/1.png)
 > scenario B:![image](https://hackmd.io/_uploads/S1XU-bdpfg.png)
 > scenario C:![image](https://hackmd.io/_uploads/SyJ9-Z_aMl.png)
 
