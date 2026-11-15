@@ -154,7 +154,8 @@ Complete the table:
 | UE synchronized with gNB? |Yes, ![image](Image/15.png) |
 | RRC connection established? |Yes, ![image](Image/16.png)|
 | Registration successful? |No, ![image](Image/17.png) |
-| Error or rejection evidence |The UE received a 5GS Registration Reject (4 bytes) from the AMF, and the OAI UE reported Registration reject message too short.![image](Image/18.png)|
+| Error or rejection evidence |The UE received a 5GS Registration Reject (4 bytes) from the AMF, and the OAI UE reported Registration reject message too short.
+![image](Image/18.png)|
 | Likely cause |IMSI `001010000000099` is not provisioned in the CN5G subscriber database, so the AMF rejected the registration. |
 
 **Questions:**
