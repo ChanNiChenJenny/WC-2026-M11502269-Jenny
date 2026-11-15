@@ -84,6 +84,7 @@ Record:
 | Maximum RTT (ms) | 7.169|
 
 Take a screenshot of the Ping result.
+
 ![image](Image/10.png)
 
 ![image](Image/11.png)
@@ -108,10 +109,15 @@ Complete the table:
 | C | 1200 bytes |8.091 |10.657 |0% |
 
 Scenario A:
+
 ![image](Image/12.png)
+
 Scenario B:
+
 ![image](Image/13.png)
+
 Scenario C:
+
 ![image](Image/14.png)
 
 
