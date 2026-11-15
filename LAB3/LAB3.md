@@ -30,6 +30,7 @@
 | UE tunnel creation |Yes |![image](Image/7.png)|
 
 The gNB and UE successfully connected.
+
 ![image](Image/8.png)
 
 
