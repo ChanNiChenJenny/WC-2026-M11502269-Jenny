@@ -25,7 +25,7 @@
 | gNB NG Setup | Yes|![image](Image/2.png)|
 | UE synchronization |Yes |![image](Image/3.png) |
 | RRC connection establishment |Yes |![image](Image/4.png)|
-| UE Registration |Yes |![image](![image](Image/5.png)|
+| UE Registration |Yes |![image](Image/5.png)|
 | PDU Session Establishment | Yes| ![image](Image/6.png)|
 | UE tunnel creation |Yes |![image](Image/7.png)|
 
@@ -154,8 +154,7 @@ Complete the table:
 | UE synchronized with gNB? |Yes, ![image](Image/15.png) |
 | RRC connection established? |Yes, ![image](Image/16.png)|
 | Registration successful? |No, ![image](Image/17.png) |
-| Error or rejection evidence |The UE received a 5GS Registration Reject (4 bytes) from the AMF, and the OAI UE reported Registration reject message too short.
-![image](Image/18.png)|
+| Error or rejection evidence |The UE received a 5GS Registration Reject (4 bytes) from the AMF, and the OAI UE reported Registration reject message too short. ![image](Image/18.png)|
 | Likely cause |IMSI `001010000000099` is not provisioned in the CN5G subscriber database, so the AMF rejected the registration. |
 
 **Questions:**
