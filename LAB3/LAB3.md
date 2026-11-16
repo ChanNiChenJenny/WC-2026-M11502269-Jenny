@@ -86,7 +86,7 @@ Record:
 
 Take a screenshot of the Ping result.
 
-![image](Image/10.png)
+![image](Image/10.PNG)
 
 ![image](Image/11.png)
 
