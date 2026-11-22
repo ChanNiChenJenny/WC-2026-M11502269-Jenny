@@ -45,7 +45,7 @@ grep -nE \
 ```
 
 **Record:** The CU and DU F1 addresses, the DU SSB frequency, and PRB count. If the local settings differ from the table above, adapt the following commands and capture filters accordingly.
-![image](https://hackmd.io/_uploads/H1kTrd9Azx.png)
+![image](Image/1.png)
 > CU F1 addresses: 127.0.0.3
 > DU F1 addresses: 127.0.0.4
 > DU SSB frequency: NR-ARFCN 630048 (3000 + 0.015 × 30048 = 3450.72 MHz)
@@ -120,21 +120,21 @@ ping -I oaitun_ue1 -c 10 192.168.70.135
 
 **Evidence:** Screenshots of CU/DU startup, UE connection, and successful Ping. Record the observed UE IP, transmitted/received packets, packet loss, and average RTT. Do **not** invent values; they vary by machine.
 
-task(CUDUUE).PNG
-![截圖 2026-11-22 下午3.50.44](https://hackmd.io/_uploads/Skfxkmx1Xl.jpg)
+![image](Image/2.png)
 
-T2(F1).PNG
-![截圖 2026-11-22 下午3.51.42](https://hackmd.io/_uploads/ryM7J7eyXe.jpg)
 
-T3T4.PNG
-![截圖 2026-11-22 下午3.52.19](https://hackmd.io/_uploads/SJiHJ7gkXe.jpg)
+![image](Image/3.png)
 
-T1(gnb_ue_information).PNG
-![截圖 2026-11-22 下午3.53.07](https://hackmd.io/_uploads/HJQuk7l1mg.jpg)
+
+![image](Image/4.png)
+
+
+![image](Image/5.png)
+
 > The IMSI 001010000000099 row is left over from Lab 3.
 
-ping.PNG
-![截圖 2026-11-22 下午3.53.40](https://hackmd.io/_uploads/S1Sc1Qlkmx.jpg)
+![image](Image/6.png)
+
 
 > UE IP: 10.0.0.2
 > Transmitted / Received: 10 / 10
@@ -329,14 +329,14 @@ Identify the interface using the actual source/destination endpoints and configu
 
 **Evidence:** Screenshot of at least one GTP-U T-PDU, with outer IP addresses, UDP ports, message type, and TEID visible. Record the observed UL and DL packet counts (if both directions are present). Do not assume equal counts.
 
-task5(...127.0.0.4 && ...127.0.0.3).png
-![截圖 2026-11-22 下午3.55.37](https://hackmd.io/_uploads/r15ZxQlkQg.jpg)
+![image](Image/7.png)
 
-task5(...127.0.0.3 && ...127.0.0.4).png
-![截圖 2026-11-22 下午3.56.05](https://hackmd.io/_uploads/Sk8XxmgkXe.jpg)
 
-One PCAP with F1-C and F1-U.png
-![截圖 2026-11-22 下午3.56.44](https://hackmd.io/_uploads/rJaBlXx1me.jpg)
+![image](Image/8.png)
+
+
+![image](Image/9.png)
+
 
 | Direction | Outer IP | UDP ports | Type | TEID | Count |
 |---|---|---|---|---|---|
