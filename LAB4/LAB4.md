@@ -46,7 +46,7 @@ grep -nE \
 
 **Record:** The CU and DU F1 addresses, the DU SSB frequency, and PRB count. If the local settings differ from the table above, adapt the following commands and capture filters accordingly.
 
-![image](LAB4/Image/1.jpg)
+![image](Image/1.jpg)
 
 > CU F1 addresses: 127.0.0.3
 > DU F1 addresses: 127.0.0.4
