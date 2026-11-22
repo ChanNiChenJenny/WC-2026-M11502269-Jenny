@@ -46,7 +46,7 @@ grep -nE \
 
 **Record:** The CU and DU F1 addresses, the DU SSB frequency, and PRB count. If the local settings differ from the table above, adapt the following commands and capture filters accordingly.
 
-![image](Image/1.jpg)
+![image](Image/0.jpg)
 
 > CU F1 addresses: 127.0.0.3
 > DU F1 addresses: 127.0.0.4
@@ -122,6 +122,9 @@ ping -I oaitun_ue1 -c 10 192.168.70.135
 
 **Evidence:** Screenshots of CU/DU startup, UE connection, and successful Ping. Record the observed UE IP, transmitted/received packets, packet loss, and average RTT. Do **not** invent values; they vary by machine.
 
+![image](Image/1.jpg)
+
+
 ![image](Image/2.jpg)
 
 
@@ -130,12 +133,9 @@ ping -I oaitun_ue1 -c 10 192.168.70.135
 
 ![image](Image/4.jpg)
 
-
-![image](Image/5.jpg)
-
 > The IMSI 001010000000099 row is left over from Lab 3.
 
-![image](Image/6.jpg)
+![image](Image/5.jpg)
 
 
 > UE IP: 10.0.0.2
@@ -241,8 +241,7 @@ Find and record these messages:
 
 **Evidence:** Screenshot with F1 Setup Request/Response and screenshot with at least three UE-associated F1AP messages. Include packet numbers and source/destination addresses.
 
-f1ap.png
-![截圖 2026-11-22 下午3.54.48](https://hackmd.io/_uploads/SkoA17ly7l.jpg)
+![image](Image/6.jpg)
 
 | Frame | Src → Dst | Message |
 |---|---|---|
