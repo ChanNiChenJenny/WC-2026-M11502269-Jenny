@@ -122,20 +122,20 @@ ping -I oaitun_ue1 -c 10 192.168.70.135
 
 **Evidence:** Screenshots of CU/DU startup, UE connection, and successful Ping. Record the observed UE IP, transmitted/received packets, packet loss, and average RTT. Do **not** invent values; they vary by machine.
 
-![image](Image/2.png)
+![image](Image/2.jpg)
 
 
-![image](Image/3.png)
+![image](Image/3.jpg)
 
 
-![image](Image/4.png)
+![image](Image/4.jpg)
 
 
-![image](Image/5.png)
+![image](Image/5.jpg)
 
 > The IMSI 001010000000099 row is left over from Lab 3.
 
-![image](Image/6.png)
+![image](Image/6.jpg)
 
 
 > UE IP: 10.0.0.2
@@ -331,13 +331,13 @@ Identify the interface using the actual source/destination endpoints and configu
 
 **Evidence:** Screenshot of at least one GTP-U T-PDU, with outer IP addresses, UDP ports, message type, and TEID visible. Record the observed UL and DL packet counts (if both directions are present). Do not assume equal counts.
 
-![image](Image/7.png)
+![image](Image/7.jpg)
 
 
-![image](Image/8.png)
+![image](Image/8.jpg)
 
 
-![image](Image/9.png)
+![image](Image/9.jpg)
 
 
 | Direction | Outer IP | UDP ports | Type | TEID | Count |
