@@ -45,7 +45,9 @@ grep -nE \
 ```
 
 **Record:** The CU and DU F1 addresses, the DU SSB frequency, and PRB count. If the local settings differ from the table above, adapt the following commands and capture filters accordingly.
-![image](Image/1.png)
+
+![image](LAB4/Image/1.jpg)
+
 > CU F1 addresses: 127.0.0.3
 > DU F1 addresses: 127.0.0.4
 > DU SSB frequency: NR-ARFCN 630048 (3000 + 0.015 × 30048 = 3450.72 MHz)
