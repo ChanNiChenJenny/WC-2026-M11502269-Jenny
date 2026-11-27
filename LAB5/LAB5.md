@@ -11,7 +11,7 @@ Run the following command on `Lab5-ue.log`:
 ```bash
 grep -nE 'Starting cell search|Initial sync successful' lab5-artifacts/Lab5-ue.log
 ```
-![截圖 2026-11-25 上午9.22.54](https://hackmd.io/_uploads/BJkxC2Qy7g.jpg)
+![image](Image/1.png)
 
 Record whether UE synchronization succeeded and the PCI value. Explain: after completing initial synchronization, what is the UE able to do?
 > **Ans**:
