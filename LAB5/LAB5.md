@@ -31,9 +31,9 @@ Find one `MIB` packet and one `SIB1` packet. Record the frame number of each and
 > MIB：frame 2
 > SIB1：frame 3
 
-![image](https://hackmd.io/_uploads/r1OfanIJmg.png)
+![image](Image/2.png)
 
-![image](https://hackmd.io/_uploads/B1KZp3Uyml.png)
+![image](Image/3.png)
 
 
 MIB and SIB1 are repeatedly broadcast system-information messages. The UE must obtain the common configuration before it can continue the access procedure. Briefly explain the purpose of MIB and SIB1 for UE access.
@@ -50,7 +50,8 @@ grep -nE 'PRACH' lab5-artifacts/Lab5-ue.log
 
 Record the Msg1 log line number. From the line that shows the actual PRACH transmission, find:
 
-![截圖 2026-11-25 上午9.47.00](https://hackmd.io/_uploads/rJENRn7yQx.jpg)
+![image](Image/4.png)
+
 > **Ans**:
 > Msg1 log line = **81**
 > frame.slot = **553.19**
@@ -66,7 +67,7 @@ After locating the PRACH event recorded by the gNB tracer, record:
 
 
 
-![image](https://hackmd.io/_uploads/HkQRd67Jme.png)
+![image](Image/5.png)
 
 > **Ans**:
 > RAPID = **16**
@@ -91,7 +92,8 @@ Return to Wireshark and clear the display filter. Press `Cmd/Ctrl + F`, choose *
 > RAPID = **16**
 > Temporary C-RNTI = **0xf21e(61982)**
 
-![image](https://hackmd.io/_uploads/ryUQKTXJQl.png)
+![image](Image/6.png)
+
 > **Ans**: The RAR answers preamble 16 and gives the UE the Timing Advance, the UL Grant for Msg3, and the Temporary C-RNTI 0xf21e.
 
 ## Task 2: Complete Random Access and RRC Connection Setup — 40 points
@@ -112,7 +114,7 @@ Expand `UL-CCCH-Message → rrcSetupRequest` and find:
 > Frame number = **491**
 > Context RNTI = **0xf21e(61982)**
 
-![image](https://hackmd.io/_uploads/r19e96mk7e.png)
+![image](Image/7.png)
 
 Briefly answer:
 
@@ -140,7 +142,8 @@ Check whether `Contention Resolution` also appears in the packet.
 > **Ans**: Yes, UE Contention Resolution Identity = 1c8e65ea60e6
 
 Below the screenshot, briefly answer:
-![image](https://hackmd.io/_uploads/SJRo36717g.png)
+
+![image](Image/8.png)
 
 1. Which message is this in four-step Random Access?
 > **Ans**: Msg4.
@@ -169,7 +172,7 @@ Expand `message: c1` further and confirm that it contains `rrcSetupComplete`. Re
 > Context RNTI = **0xf21e(61982)**
 > rrc-TransactionIdentifier = **1**
 
-![image](https://hackmd.io/_uploads/HyCATTQJ7l.png)
+![image](Image/9.png)
 
 Below the screenshot, briefly answer:
 
@@ -197,7 +200,8 @@ From the output, record:
 
 
 Submit a screenshot of this log output and briefly answer:
-![截圖 2026-11-25 上午9.51.19](https://hackmd.io/_uploads/H1vNkaQyQe.jpg)
+
+![image](Image/10.png)
 
 1. In log order, what are the three events from successful Random Access to generating `RRCSetupComplete`?
 > **Ans**:  4-Step RA procedure succeeded → Received NR_RRCSetup → State = NR_RRC_CONNECTED
@@ -208,7 +212,7 @@ Submit a screenshot of this log output and briefly answer:
 ## Task 3: Draw an Initial Access MSC Diagram — 25 points
 
 Using the log and Wireshark evidence found in Tasks 1 and 2, draw your own Message Sequence Chart (MSC). It must include two vertical lifelines, `UE` and `gNB`, and the following six messages: MIB/SIB1, Msg1, Msg2, Msg3, Msg4, and `RRCSetupComplete`.
-
+Determine and draw the correct order and direction of the messages yourself. Add a one-sentence purpose next to each arrow.
 ```mermaid
 sequenceDiagram
     
@@ -225,4 +229,4 @@ sequenceDiagram
     Note over UE: RRC_CONNECTED
 ```
 
-Determine and draw the correct order and direction of the messages yourself. Add a one-sentence purpose next to each arrow.
+
